@@ -1,6 +1,3 @@
-Here's your full README.md — copy and paste everything:
-
-```markdown
 #  Alexa Voice Assistant
 
 An AI-powered voice assistant built from scratch using OpenAI Whisper, Deep Learning intent classification, and Streamlit.
@@ -13,10 +10,8 @@ An AI-powered voice assistant built from scratch using OpenAI Whisper, Deep Lear
 ---
 
 ##  Architecture
-
-```
 Voice Input → Whisper STT → TF-IDF → MLP Classifier → Action Engine → TTS Output
-```
+
 
 ---
 
@@ -76,55 +71,36 @@ Voice Input → Whisper STT → TF-IDF → MLP Classifier → Action Engine → 
 ```bash
 git clone https://github.com/Amshavarthana-S/alexa-voice-assistant
 cd alexa-voice-assistant
-```
+2. Install dependencies
 
-**2. Install dependencies**
-```bash
 pip install -r requirements.txt
-```
+3. Install FFmpeg
 
-**3. Install FFmpeg**
+Download from gyan.dev and add to PATH.
 
-Download from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) and add to PATH.
-
-**4. Update paths in alexa.py**
+4. Update paths in alexa.py
 
 Change these lines to match your system:
-```python
+
 ffmpeg_path = r"YOUR_FFMPEG_PATH\bin"
 AUDIO_PATH  = r"YOUR_PATH\input.wav"
 DATA_PATH   = r"YOUR_PATH\alexa_data.csv"
-```
+5. Run the app
 
-**5. Run the app**
-```bash
 streamlit run alexa.py
-```
-
----
-
-## 📁 Project Structure
-
-```
+📁 Project Structure
 alexa-voice-assistant/
 ├── alexa.py                      # Main Streamlit app
 ├── alexa_data.csv                # Training data (20+ intents)
 ├── Alexa_Voice_Assistant.ipynb   # Development notebook
 ├── requirements.txt              # Dependencies
 └── README.md                     # Project documentation
-```
+UI Preview
+Dark glassmorphic dashboard with neon ring animation, confidence score, and conversation history.
 
----
+Author
+Amshavarthana S
+🔗 GitHub
+Built with using Python, Streamlit and OpenAI Whisper
 
-##  UI Preview
 
->  Dark glassmorphic dashboard with neon ring animation, confidence score, and conversation history.
-
----
-
-##  Author
-
-**Amshavarthana S**  
-🔗 [GitHub](https://github.com/Amshavarthana-S)  
-Built with  using Python, Streamlit and OpenAI Whisper
-```
