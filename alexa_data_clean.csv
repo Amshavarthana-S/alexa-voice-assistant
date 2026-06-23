@@ -1,0 +1,504 @@
+prompt,intent
+wake me up,alarm
+morning alarm,alarm
+set an alarm,alarm
+alarm for tomorrow,alarm
+start songs,play_music
+play party music,play_music
+play music,play_music
+play relaxing music,play_music
+tell a joke,jokes_fun
+another joke,jokes_fun
+make me laugh,jokes_fun
+funny joke,jokes_fun
+latest news,news
+top headlines,news
+today's news,news
+news update,news
+suggest a movie,movies
+popular films,movies
+latest movies,movies
+movie recommendation,movies
+set a timer,set_timer
+timer for cooking,set_timer
+start countdown,set_timer
+start timer,set_timer
+reminder for meeting,reminder
+don't forget task,reminder
+set reminder,reminder
+remind me later,reminder
+date today,date_time
+current time,date_time
+what time is it,date_time
+today's date,date_time
+what's on calendar,calendar
+meetings today,calendar
+calendar events,calendar
+my schedule,calendar
+will it rain,weather
+weather today,weather
+temperature outside,weather
+weather forecast,weather
+what is ai,general_qa
+who is einstein,general_qa
+explain python,general_qa
+define science,general_qa
+science fact,facts
+random fact,facts
+history fact,facts
+tell a fact,facts
+traffic to office,traffic
+traffic update,traffic
+road conditions,traffic
+how's traffic,traffic
+way to hospital,directions
+route to airport,directions
+navigate to school,directions
+directions to mall,directions
+buy eggs,shopping_list
+put rice on list,shopping_list
+add milk to shopping list,shopping_list
+add bread,shopping_list
+switch off fan,smart_home
+turn off ac,smart_home
+dim lights,smart_home
+turn on lights,smart_home
+who are you,personality
+tell about yourself,personality
+what can you do,personality
+are you smart,personality
+calculate 5 plus 7,calculator
+solve 9 times 8,calculator
+add numbers,calculator
+12 divided by 4,calculator
+start fm,play_radio
+tune to station,play_radio
+radio please,play_radio
+play radio,play_radio
+run evening routine,routine
+night routine,routine
+start routine,routine
+morning routine,routine
+add task,todo_task
+new to do,todo_task
+task for today,todo_task
+remember homework,todo_task
+meters to feet,unit_conversion
+convert miles to km,unit_conversion
+celsius to fahrenheit,unit_conversion
+grams in kg,unit_conversion
+english to french,translation
+translate hello to spanish,translation
+say hi in german,translation
+translate thank you,translation
+meaning of algorithm,dictionary
+define gravity,dictionary
+define neural network,dictionary
+word meaning,dictionary
+play podcast,podcast_audiobook
+start audiobook,podcast_audiobook
+resume audiobook,podcast_audiobook
+continue podcast,podcast_audiobook
+device status,device_status
+are lights on,device_status
+is door locked,device_status
+wifi status,device_status
+quiz time,games_trivia
+fun game,games_trivia
+start trivia,games_trivia
+play a game,games_trivia
+open youtube,open_website
+open website,open_website
+launch github,open_website
+go to google,open_website
+set alarm by 7 o clock in evening,alarm
+set an alarm for 7 in the evening,alarm
+wake me at 7 pm,alarm
+alarm at 7 tonight,alarm
+set evening alarm for,alarm
+ring alarm at 7 pm,alarm
+schedule alarm 7 in evening,alarm
+put an alarm for 7 tonight,alarm
+remind me with alarm at 7 pm,alarm
+start alarm at 7 in the evening,alarm
+play song for me,play_music
+play a song for me,play_music
+can you play a song,play_music
+please play some song,play_music
+start a song,play_music
+i want to hear a song,play_music
+put on a song,play_music
+play music for me,play_music
+could you play music,play_music
+play any nice song,play_music
+play my favorite song,play_music
+play some good music,play_music
+play a track,play_music
+start playing a song,play_music
+music please,play_music
+set alarm for 6am,alarm
+wake me up at 7,alarm
+alarm at 8 in the morning,alarm
+set my morning alarm,alarm
+alarm for tomorrow 9am,alarm
+wake me up tomorrow,alarm
+set alarm for tonight,alarm
+alarm at half past six,alarm
+set an alarm for noon,alarm
+wake me up in 2 hours,alarm
+set alarm 5 30 am,alarm
+alarm for 10 pm,alarm
+remind me to wake up,alarm
+set early morning alarm,alarm
+bedtime alarm please,alarm
+alarm for monday morning,alarm
+set alarm for 6 45,alarm
+wake me at dawn,alarm
+set alarm before sunrise,alarm
+alarm reminder for gym,alarm
+who is the prime minister of india,general_qa
+who is elon musk,general_qa
+tell me about albert einstein,general_qa
+what is quantum physics,general_qa
+who invented the telephone,general_qa
+what is the capital of france,general_qa
+who is the president of usa,general_qa
+explain black holes,general_qa
+what is climate change,general_qa
+who is modi,general_qa
+tell me about actor vijay,general_qa
+who is taylor swift,general_qa
+what is artificial intelligence,general_qa
+who discovered gravity,general_qa
+what is the speed of light,general_qa
+tell me about world war 2,general_qa
+who built the eiffel tower,general_qa
+what is blockchain,general_qa
+explain solar system,general_qa
+who is napoleon,general_qa
+what is the meaning of life,general_qa
+tell me about tesla,general_qa
+who is the ceo of apple,general_qa
+what is democracy,general_qa
+who is cristiano ronaldo,general_qa
+tell me about shakespeare,general_qa
+what is inflation,general_qa
+who is narendra modi,general_qa
+what happened in 1947,general_qa
+who is the king of england,general_qa
+tell me something funny,jokes_fun
+say a joke,jokes_fun
+give me a joke,jokes_fun
+funny joke please,jokes_fun
+tell me a pun,jokes_fun
+crack a joke,jokes_fun
+tell me a programmer joke,jokes_fun
+i need a laugh,jokes_fun
+entertain me with a joke,jokes_fun
+share a funny story,jokes_fun
+joke of the day,jokes_fun
+tell me a dad joke,jokes_fun
+something hilarious please,jokes_fun
+cheer me up with a joke,jokes_fun
+play some songs,play_music
+i want to listen to music,play_music
+play hindi songs,play_music
+play tamil music,play_music
+put on some jazz,play_music
+play my favourite songs,play_music
+play pop music,play_music
+start playlist,play_music
+play some beats,play_music
+put on background music,play_music
+play party songs,play_music
+play classical music,play_music
+i want to hear music,play_music
+play songs on youtube,play_music
+play rock music,play_music
+start some music,play_music
+play chill music,play_music
+play workout music,play_music
+put on some tunes,play_music
+what is in the news,news
+show me headlines,news
+today news please,news
+latest updates,news
+current news,news
+breaking news,news
+what happened today,news
+tell me the news,news
+morning news briefing,news
+world news today,news
+sports news,news
+technology news,news
+political news,news
+read me the headlines,news
+how is the weather,weather
+will it rain today,weather
+is it hot outside,weather
+should i carry umbrella,weather
+what is the weather like,weather
+weather tomorrow,weather
+is it cold today,weather
+weather update please,weather
+climate today,weather
+sunny or rainy today,weather
+weather this week,weather
+humidity today,weather
+wind forecast,weather
+launch facebook,open_website
+open instagram,open_website
+take me to twitter,open_website
+open netflix,open_website
+launch reddit,open_website
+open github,open_website
+go to amazon,open_website
+open wikipedia,open_website
+launch spotify,open_website
+open whatsapp web,open_website
+go to linkedin,open_website
+open stackoverflow,open_website
+launch gmail,open_website
+current time please,date_time
+what is todays date,date_time
+tell me the time,date_time
+what day is today,date_time
+what is the date today,date_time
+time right now,date_time
+current date and time,date_time
+what month is it,date_time
+what year is it,date_time
+tell me todays date,date_time
+time check,date_time
+what time is it now,date_time
+day of the week,date_time
+define algorithm,dictionary
+meaning of serendipity,dictionary
+what does ephemeral mean,dictionary
+define machine learning,dictionary
+meaning of paradox,dictionary
+what is the definition of gravity,dictionary
+meaning of catalyst,dictionary
+define photosynthesis,dictionary
+what does resilience mean,dictionary
+define democracy,dictionary
+meaning of entropy,dictionary
+define blockchain,dictionary
+what does eloquent mean,dictionary
+meaning of metamorphosis,dictionary
+how to get to airport,directions
+navigate to nearest hospital,directions
+directions to train station,directions
+route to city center,directions
+take me to nearest mall,directions
+how do i get to school,directions
+navigate home,directions
+directions to nearest pharmacy,directions
+route to restaurant,directions
+show me the way to office,directions
+navigate to nearest petrol station,directions
+directions to museum,directions
+how far is the beach,directions
+navigate to hotel,directions
+route to park,directions
+calculate something,calculator
+open calculator app,calculator
+do some math,calculator
+i need to calculate,calculator
+solve a math problem,calculator
+help me with calculation,calculator
+what is 25 plus 75,calculator
+multiply 12 by 15,calculator
+what is 100 divided by 4,calculator
+calculate 20 percent of 500,calculator
+solve 45 minus 18,calculator
+math calculation please,calculator
+calculator please,calculator
+compute this,calculator
+arithmetic help,calculator
+add tomatoes to list,shopping_list
+buy bread and butter,shopping_list
+put eggs on shopping list,shopping_list
+add coffee to cart,shopping_list
+remember to buy milk,shopping_list
+add rice to list,shopping_list
+buy vegetables today,shopping_list
+add sugar to shopping,shopping_list
+put cheese on list,shopping_list
+add fruits to shopping list,shopping_list
+buy detergent,shopping_list
+add pasta to cart,shopping_list
+remember to get soap,shopping_list
+add juice to shopping,shopping_list
+buy snacks,shopping_list
+turn on the lights,smart_home
+switch off the fan,smart_home
+dim the lights,smart_home
+turn off air conditioner,smart_home
+set thermostat to 22,smart_home
+lock the front door,smart_home
+turn on tv,smart_home
+switch off all lights,smart_home
+open the garage,smart_home
+turn on bedroom light,smart_home
+set fan speed to low,smart_home
+unlock the door,smart_home
+turn off the tv,smart_home
+switch on kitchen light,smart_home
+close the curtains,smart_home
+what is your name,personality
+tell me about yourself,personality
+are you a robot,personality
+are you human,personality
+how were you made,personality
+what is your purpose,personality
+introduce yourself,personality
+are you alexa,personality
+how do you work,personality
+what are your abilities,personality
+who created you,personality
+what is your function,personality
+give me a fun fact,facts
+tell me something interesting,facts
+random fact please,facts
+amazing fact,facts
+did you know something,facts
+cool fact of the day,facts
+surprising fact,facts
+share a fact,facts
+fact about space,facts
+animal fact,facts
+fact about ocean,facts
+mind blowing fact,facts
+tell me an interesting fact,facts
+set timer for 5 minutes,set_timer
+timer for 10 minutes,set_timer
+countdown 30 seconds,set_timer
+start a 1 hour timer,set_timer
+set cooking timer,set_timer
+timer for 2 minutes,set_timer
+start timer now,set_timer
+set 15 minute timer,set_timer
+timer please,set_timer
+countdown timer 45 minutes,set_timer
+set gym timer,set_timer
+pomodoro timer please,set_timer
+remind me to call mom,reminder
+set reminder for meeting,reminder
+remind me at 3pm,reminder
+dont forget my appointment,reminder
+reminder for doctors visit,reminder
+remind me to take medicine,reminder
+set reminder for tomorrow,reminder
+remind me about the deadline,reminder
+reminder for birthday,reminder
+dont forget to buy groceries,reminder
+translate hello to french,translation
+how do you say thank you in spanish,translation
+translate good morning to japanese,translation
+translate this to tamil,translation
+english to hindi translation,translation
+translate welcome to arabic,translation
+how to say goodbye in german,translation
+translate to chinese,translation
+translate this sentence,translation
+language translation please,translation
+ask me a trivia question,games_trivia
+lets play a game,games_trivia
+quiz me,games_trivia
+i want to play trivia,games_trivia
+random trivia question,games_trivia
+test my knowledge,games_trivia
+general knowledge question,games_trivia
+sports trivia,games_trivia
+science quiz,games_trivia
+history trivia please,games_trivia
+fun quiz time,games_trivia
+challenge me with a question,games_trivia
+suggest a good movie,movies
+what should i watch,movies
+recommend a film,movies
+popular movies right now,movies
+best movies of 2024,movies
+action movie suggestion,movies
+comedy movie recommendation,movies
+what is trending on netflix,movies
+movie for tonight,movies
+romantic movie suggestion,movies
+horror film recommendation,movies
+top rated movies,movies
+how is traffic now,traffic
+is there traffic on highway,traffic
+traffic update please,traffic
+road conditions today,traffic
+is the road clear,traffic
+traffic jam alert,traffic
+best route to avoid traffic,traffic
+traffic near me,traffic
+highway traffic report,traffic
+convert 5 km to miles,unit_conversion
+how many feet in a meter,unit_conversion
+convert 100 dollars to euros,unit_conversion
+pounds to kilograms,unit_conversion
+inches to centimeters,unit_conversion
+convert liters to gallons,unit_conversion
+how many cups in a liter,unit_conversion
+convert kg to lbs,unit_conversion
+miles per hour to kmph,unit_conversion
+what is on my calendar,calendar
+any meetings today,calendar
+schedule for today,calendar
+check my appointments,calendar
+calendar events this week,calendar
+what do i have today,calendar
+any events tomorrow,calendar
+show my schedule,calendar
+calendar update,calendar
+add task to my list,todo_task
+new task for today,todo_task
+create a to do,todo_task
+add item to tasks,todo_task
+new reminder task,todo_task
+task list please,todo_task
+add work task,todo_task
+what are my tasks,todo_task
+pending tasks today,todo_task
+start morning routine,routine
+begin my evening routine,routine
+run my daily routine,routine
+activate sleep routine,routine
+start workout routine,routine
+my night routine please,routine
+run home routine,routine
+start commute routine,routine
+activate good morning mode,routine
+play a podcast,podcast_audiobook
+resume my podcast,podcast_audiobook
+play tech podcast,podcast_audiobook
+listen to audiobook,podcast_audiobook
+start true crime podcast,podcast_audiobook
+play news podcast,podcast_audiobook
+resume book,podcast_audiobook
+play comedy podcast,podcast_audiobook
+audiobook please,podcast_audiobook
+start my playlist podcast,podcast_audiobook
+are the lights on,device_status
+is the door locked,device_status
+device status check,device_status
+is my phone charging,device_status
+check home devices,device_status
+are appliances off,device_status
+status of smart devices,device_status
+is ac running,device_status
+check if fan is on,device_status
+play fm radio,play_radio
+tune to radio station,play_radio
+start radio,play_radio
+play online radio,play_radio
+tune in to news radio,play_radio
+play radio please,play_radio
+start fm station,play_radio
+radio on please,play_radio
+play music radio,play_radio
+tune to sports radio,play_radio
+play jazz radio station,play_radio
